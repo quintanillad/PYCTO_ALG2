@@ -20,5 +20,16 @@ Rigidbody2D rb2D;
         }else{
         rb2D.velocity= new Vector2(0,rb2D.velocity.y);
         }
+
+
+        if(Input.GetKey("w")||Input.GetKey("up")){
+            rb2D.velocity= new Vector2(rb2D.velocity.x,runspeed);
+        }
+        else if(Input.GetKey("s")||Input.GetKey("down")){
+            rb2D.velocity= new Vector2(rb2D.velocity.x,-runspeed);
+        }else{
+        rb2D.velocity= new Vector2(rb2D.velocity.x,0);
+        }
+        
     } 
 }
