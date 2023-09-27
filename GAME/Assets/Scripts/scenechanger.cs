@@ -12,11 +12,11 @@ public class scenechanger : MonoBehaviour
     {
         an = GetComponent<Animator>();
     }
-    public void Play()
+    public void Play(string sceneName)
     {
         an.SetTrigger("Cambio");
         new WaitForSeconds(cambio.length);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(sceneName);
     }
     public void Salir()
     {
