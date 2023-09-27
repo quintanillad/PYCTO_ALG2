@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5f32c5d55bce2334eb809210c622cc0f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Red Moon Rising
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6e1bca4cddd24fc4fa6d9de42aac2a6e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
