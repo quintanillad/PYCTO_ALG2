@@ -157,15 +157,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cambio: {fileID: 7400000, guid: ea96d0c4102ef4142a182846a57c781e, type: 2}
-  volumenFX: {fileID: 0}
-  volumenMaster: {fileID: 0}
-  mute: {fileID: 0}
-  mixer: {fileID: 0}
-  fxsound: {fileID: 0}
-  clicksound: {fileID: 0}
-  panelGenral: {fileID: 0}
-  opcionesPanel: {fileID: 0}
-  creditosPanel: {fileID: 0}
 --- !u!95 &51612825
 Animator:
   serializedVersion: 5
@@ -1535,8 +1526,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1030400006}
-        m_TargetAssemblyTypeName: scenechanger, Assembly-CSharp
+      - m_Target: {fileID: 1030400007}
+        m_TargetAssemblyTypeName: soundcontroller, Assembly-CSharp
         m_MethodName: OpenPanels
         m_Mode: 2
         m_Arguments:
@@ -1803,19 +1794,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 877941198}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 51612824}
-        m_TargetAssemblyTypeName: scenechanger, Assembly-CSharp
-        m_MethodName: Salir
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &877941198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2019,6 +1998,7 @@ GameObject:
   - component: {fileID: 1030400003}
   - component: {fileID: 1030400002}
   - component: {fileID: 1030400006}
+  - component: {fileID: 1030400007}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2124,6 +2104,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cambio: {fileID: 0}
+--- !u!114 &1030400007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030400001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475b5c86d2b2ac4418e0fcec4d3737fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   volumenFX: {fileID: 1419080636}
   volumenMaster: {fileID: 1835718966}
   mute: {fileID: 526839366}
@@ -2905,8 +2897,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1030400006}
-        m_TargetAssemblyTypeName: scenechanger, Assembly-CSharp
+      - m_Target: {fileID: 1030400007}
+        m_TargetAssemblyTypeName: soundcontroller, Assembly-CSharp
         m_MethodName: OpenPanels
         m_Mode: 2
         m_Arguments:
@@ -4265,8 +4257,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1030400006}
-        m_TargetAssemblyTypeName: scenechanger, Assembly-CSharp
+      - m_Target: {fileID: 1030400007}
+        m_TargetAssemblyTypeName: soundcontroller, Assembly-CSharp
         m_MethodName: OpenPanels
         m_Mode: 2
         m_Arguments:
@@ -4399,8 +4391,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1030400006}
-        m_TargetAssemblyTypeName: scenechanger, Assembly-CSharp
+      - m_Target: {fileID: 1030400007}
+        m_TargetAssemblyTypeName: soundcontroller, Assembly-CSharp
         m_MethodName: OpenPanels
         m_Mode: 2
         m_Arguments:
