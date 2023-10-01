@@ -969,8 +969,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1030400006}
-        m_TargetAssemblyTypeName: scenechanger, Assembly-CSharp
+      - m_Target: {fileID: 1030400007}
+        m_TargetAssemblyTypeName: soundcontroller, Assembly-CSharp
         m_MethodName: SetMute
         m_Mode: 1
         m_Arguments:
@@ -1794,7 +1794,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 877941198}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 51612824}
+        m_TargetAssemblyTypeName: scenechanger, Assembly-CSharp
+        m_MethodName: Salir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &877941198
 MonoBehaviour:
   m_ObjectHideFlags: 0
