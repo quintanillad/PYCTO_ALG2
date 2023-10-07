@@ -11,23 +11,7 @@ public class soundcontroller : MonoBehaviour
     public Slider volumenMaster;
     public Toggle mute;
     public AudioMixer mixer;
-    public AudioSource fxsound;
-    public AudioClip clicksound;
     private float lastvolumen;
-    [Header("Paneles")]
-    public GameObject panelGenral;
-    public GameObject opcionesPanel;
-    public GameObject creditosPanel;
-
-    public void OpenPanels(GameObject panel)
-    {
-        creditosPanel.SetActive(false);
-        opcionesPanel.SetActive(false);
-        panelGenral.SetActive(false);
-
-        panel.SetActive(true);
-        PlaySoundButton();
-    }
 
     //control del sonido
 
@@ -44,11 +28,6 @@ public class soundcontroller : MonoBehaviour
     {
         volumenFX.onValueChanged.AddListener(VolumenFXchanger);
         volumenMaster.onValueChanged.AddListener(Volumenchanger);
-    }
-
-    public void PlaySoundButton()
-    {
-        fxsound.PlayOneShot(clicksound);
     }
 
     public void SetMute()

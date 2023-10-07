@@ -1526,8 +1526,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1030400007}
-        m_TargetAssemblyTypeName: soundcontroller, Assembly-CSharp
+      - m_Target: {fileID: 1030400008}
+        m_TargetAssemblyTypeName: panelsshifting, Assembly-CSharp
         m_MethodName: OpenPanels
         m_Mode: 2
         m_Arguments:
@@ -2011,6 +2011,7 @@ GameObject:
   - component: {fileID: 1030400002}
   - component: {fileID: 1030400006}
   - component: {fileID: 1030400007}
+  - component: {fileID: 1030400008}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2134,9 +2135,23 @@ MonoBehaviour:
   mixer: {fileID: 24100000, guid: e8562effe0e4ed74db44cecf81ac8de8, type: 2}
   fxsound: {fileID: 247808442}
   clicksound: {fileID: 8300000, guid: 350730463b2e15340ac2f743de157ad6, type: 3}
+--- !u!114 &1030400008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030400001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b133643e5e10d964982675afbc0d0a56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   panelGenral: {fileID: 1777418799}
   opcionesPanel: {fileID: 1229978961}
   creditosPanel: {fileID: 1905508271}
+  fxsound: {fileID: 247808442}
+  sonido_click: {fileID: 8300000, guid: 350730463b2e15340ac2f743de157ad6, type: 3}
 --- !u!1 &1085408640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2909,8 +2924,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1030400007}
-        m_TargetAssemblyTypeName: soundcontroller, Assembly-CSharp
+      - m_Target: {fileID: 1030400008}
+        m_TargetAssemblyTypeName: panelsshifting, Assembly-CSharp
         m_MethodName: OpenPanels
         m_Mode: 2
         m_Arguments:
@@ -3533,7 +3548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.809, b: 0.667, a: 0.7294118}
+  m_Color: {r: 0, g: 0.809, b: 0.667, a: 0.49411765}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4269,8 +4284,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1030400007}
-        m_TargetAssemblyTypeName: soundcontroller, Assembly-CSharp
+      - m_Target: {fileID: 1030400008}
+        m_TargetAssemblyTypeName: panelsshifting, Assembly-CSharp
         m_MethodName: OpenPanels
         m_Mode: 2
         m_Arguments:
@@ -4403,8 +4418,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1030400007}
-        m_TargetAssemblyTypeName: soundcontroller, Assembly-CSharp
+      - m_Target: {fileID: 1030400008}
+        m_TargetAssemblyTypeName: panelsshifting, Assembly-CSharp
         m_MethodName: OpenPanels
         m_Mode: 2
         m_Arguments:
