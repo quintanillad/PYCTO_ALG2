@@ -22,6 +22,7 @@ public class scenechanger : MonoBehaviour
     }
     public void Salir()
     {
+        Debug.Log("A salido del juego");
         Application.Quit();
     }
 
