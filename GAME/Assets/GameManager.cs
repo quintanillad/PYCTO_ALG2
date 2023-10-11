@@ -13,9 +13,10 @@ public class GameManager : MonoBehaviour
     public int PuntosTotales {get; private set;}
 
 	private int vidas = 5;
-
-    private void Awake()
+    
+	    private void Awake()
     {
+		
         if (Instance == null)
         {
             Instance = this;
@@ -36,14 +37,9 @@ public class GameManager : MonoBehaviour
 	}
 
 	public bool RecuperarVida() {
-		if (vidas == 5)
-		{
-			return false;
-		}
-
 		hud.ActivarVida(vidas);
 		vidas += 1;
 		return true;
-	}
-   
+		
+	}   
    }

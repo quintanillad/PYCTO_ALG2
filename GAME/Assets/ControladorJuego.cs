@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class ControladorJuego : MonoBehaviour
 {
 
@@ -24,7 +26,7 @@ private void CambiarContador(){
         slider.value= TiempoActual;
     }
     if (TiempoActual <=0){
-        Debug.Log("Derrota");
+        SceneManager.LoadScene(0);
         CambiarTemp(false);
     }
 }
@@ -38,6 +40,5 @@ public void ActivarTemp(){
 }
 public void DesactivarTemp(){
     CambiarTemp(false);
-}
-
+    }
 }
