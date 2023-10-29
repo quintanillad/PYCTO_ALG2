@@ -6,7 +6,7 @@ public class Movimiento : MonoBehaviour
 {
 public float runspeed=2;
 Rigidbody2D rb2D;
-private float TiempoAct;
+public float TiempoActual;
 
     void Start()
     {
@@ -35,7 +35,7 @@ private float TiempoAct;
         }
     }    
     public void CambiarVelocidad(){
-        TiempoAct += Time.deltaTime;
+        TiempoActual += Time.deltaTime;
        if(Time.deltaTime % 3 == 0){
         runspeed = runspeed + 1;
         }

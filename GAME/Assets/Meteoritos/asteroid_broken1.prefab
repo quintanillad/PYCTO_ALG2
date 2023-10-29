@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3447419575547136115}
   - component: {fileID: 3447419575547136114}
   - component: {fileID: 3447419575547136110}
-  - component: {fileID: 187028829849316645}
+  - component: {fileID: -2679705068033544849}
   m_Layer: 0
   m_Name: asteroid_broken1
   m_TagString: Untagged
@@ -141,13 +141,13 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.23
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &187028829849316645
+--- !u!114 &-2679705068033544849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,6 +156,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3447419575547136113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f150f2159b5ec84fac92ea1bd26283c, type: 3}
+  m_Script: {fileID: 11500000, guid: ee02b47a7ea49d348a97cba4744357de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
